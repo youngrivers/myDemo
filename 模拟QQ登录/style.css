@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 428px;
+    height: 333px;
+    border-radius: 2px;
+    box-shadow:0 0 10px grey;
+    /*display: table-cell;*/
+    /*vertical-align:middle;*/
+    position: absolute;
+    background-color: #ebf2f9;
+    display: inline-block;
+}
+.header{
+    width: 428px;
+    height: 180px;
+    background: url("images/load.png"),0 -1px;
+}
+.header-1,.header-2,.header-3{
+    width:29px;
+    height: 30px;
+    float:right;
+}
+.header-2:hover,.header-3:hover{
+    background-color: #fff;
+    opacity: 0.2;
+}
+.header-1:hover{
+    background-color: red;
+    opacity: 0.6;
+}
+.event{
+    position: relative;
+    height: 105px;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+.event-1{
+    width: 80px;
+    height: 80px;
+    background: url("images/headimage.png");
+    display: inline-block;
+    float: left;
+}
+.event-1-1{
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    left:63px;
+    bottom:24px;
+    background: url("images/condition.png"),0 0;
+}
+.event-1-1:hover{
+    border: 1px solid gray;
+    border-radius: 3px;
+}
+.event-1 ul li{
+    list-style: none;
+    font-size: 13px;
+    line-height: 20px;
+    background-color: #fff;
+    border-bottom: 1px solid gray;
+}
+.event-1 ul li:hover{
+    background-color:rgb(51,127,209);
+}
+.event-1 ul li div{
+    display: inline-block;
+    margin:0 5px;
+}
+.condition{
+    border-radius: 2px;
+    box-shadow:0 0 10px grey;
+    position: absolute;
+    left: 65px;
+    top: 90px;
+    z-index: 3;
+    display: none;
+}
+.condition-1{
+    width: 16px;
+    height: 16px;
+    background: url("images/condition.png"),0 0;
+}
+.condition-2{
+    width: 16px;
+    height: 16px;
+    background: url("images/condition.png");
+    background-position: 0 112px;
+}
+.condition-3{
+    width: 16px;
+    height: 16px;
+    background: url("images/condition.png");
+    background-position: 0 86px;
+}
+.condition-4{
+    width: 16px;
+    height: 16px;
+    background: url("images/condition.png");
+    background-position: 0 65px;
+}
+.condition-5{
+    width: 16px;
+    height: 16px;
+    background: url("images/condition.png");
+    background-position: 0 42px;
+}
+.condition-6{
+    width: 16px;
+    height: 16px;
+    background: url("images/condition.png");
+    background-position: 0 17px;
+}
+.event-2{
+    position: relative;
+    display: inline-block;
+    float: left;
+    width: 195px;
+    margin-left: 10px;
+}
+.box{
+    width: 193px;
+    height: 30px;
+}
+.event-2 input{
+}
+.event-2 input:hover{
+    outline-color: blue;
+}
+.event-2 span{
+    font-size: 80%;
+}
+.event-2-1{
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: url("images/choice.png");
+    background-position:0 0;
+}
+.event-2-2{
+    display: inline-block;
+    position: absolute;
+    top: 42px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    background: url("images/choice.png");
+    background-position:0 22px;
+    cursor: pointer;
+}
+.event-3{
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+}
+.event-3 p{
+    color:rgb(38,133,277);
+    font-size: 80%;
+    line-height: 35px;
+    cursor: pointer;
+}
+.event-3 p:hover{
+    color: #09a3dc;
+    opacity: 0.8;
+}
+.footer{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.add{
+    display: inline-block;
+    float: left;
+    width: 26px;
+    height: 21px;
+    background: url("images/add.png");
+    position: absolute;
+    left: 12px;
+    bottom: -25px;
+}
+.add:hover{
+    background-color: blue;
+    opacity: 0.4;
+}
+.sure{
+    display: inline-block;
+    float: left;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    left: 130px;
+    width: 195px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #09a3dc;
+    color: #ffffff;
+    font-size: 13px;
+    text-align: center;
+    line-height: 32px;
+}
+.sure span{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    top: 8px;
+    left: 40px;
+    background: url("images/lock.png");
+}
+.sure:hover{
+    background-color: #3cc3f5;
+}
+.two{
+    display: inline-block;
+    float: left;
+    position: absolute;
+    right: 12px;
+    bottom: -25px;
+    width: 23px;
+    height: 25px;
+    background: url("images/twocode.png");
+}
