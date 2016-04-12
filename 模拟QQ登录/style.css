@@ -50,7 +50,6 @@
     position: absolute;
     left:63px;
     bottom:24px;
-    background: url("images/condition.png"),0 0;
 }
 .event-1-1:hover{
     border: 1px solid gray;

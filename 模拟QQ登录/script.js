@@ -22,13 +22,13 @@
         var header=getByClass("header")[0];
             //拖曳窗口函数
             header.onmousedown=fnDown;
-            //关闭
-        var close=document.getElementsByClassName("header-1");
+            //关闭,class不能实现
+        var close=document.getElementById("header-1");
         close.onclick=function(){
             document.getElementById("main").style.display="none";
         };
         //切换状态
-        var oChange=document.getElementsByClassName("event-1-1"),
+        var oChange=document.getElementById("event-1-1"),
             oList=document.getElementsByTagName("li");
         oChange.onclick=function(){
             document.getElementById("condition").style.display="block";
@@ -42,7 +42,11 @@
                 this.style.background="#fff";
             };
             oList[i].onclick=function(){
+                var className=this.id;
+                //console.log(className);
                 document.getElementById("condition").style.display="none";
+                document.getElementById("event-1-1").className="";
+                document.getElementById("event-1-1").className="event-1-1 "+className;
             }
         }
     }
