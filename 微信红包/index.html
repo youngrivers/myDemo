@@ -2,9 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>模拟微信红包生成器</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+<div class="main">
+    <label>
+        <input type="text" value="10" id="text1"/><span class="txt1">发多少红包</span>
+        <input type="text" id="text2"/><span class="txt2">共发多少钱</span>
+        <span class="txt3">个</span>
+        <span class="txt4">元</span>
+        <textarea placeholder="恭喜发财，大吉大利！" id="text3"></textarea>
+        <button id="btn">塞钱进红包</button>
+        <span id="box">
+            <span id="header"></span><br>
+            <textarea id="num"></textarea>
+        </span>
+    </label>
+</div>
+<script src="script.js"></script>
 </body>
 </html>

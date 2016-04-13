@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+fieldset{
+    width: 500px;
+    margin:0 auto;
+    line-height: 30px;
+}
+legend{
+    text-align: center;
+}
+.box{
+    width: 300px;
+    height: 150px;
+    border: 1px solid gray;
+    box-shadow: 0 0 5px gray;
+    margin: 0 auto;
+}
+button{
+    margin-left: 230px;
+    margin-bottom: 10px;
+    padding: 5px;
+    background: #ffffff;
+}
+button:hover{
+    border-color: #09a3dc;
+    color: #09a3dc;
+}

@@ -2,9 +2,29 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title></title>
+    <title>随机数生成器</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-
+<fieldset>
+    <legend>随机数生成器(整数)</legend>
+    <p>确定产生随机数的数目，最小值和最大值：</p>
+    <span>数&nbsp;&nbsp;目：</span>
+    <input type="text" id="text1"><br>
+    <span>最小值：</span>
+    <input type="text" id="text2" value="0">
+    <span>最大值：</span>
+    <input type="text" id="text3">
+    <p>选择是否为唯一随机数：</p>
+    <span>选&nbsp;&nbsp;择：</span>
+    <select>
+        <option>随便</option>
+        <option>唯一</option>
+    </select>
+    <p>点击生成随机数：</p>
+    <button type="button" id="btn">生成</button>
+    <div id="box"></div>
+</fieldset>
+<script src="script.js"></script>
 </body>
 </html>

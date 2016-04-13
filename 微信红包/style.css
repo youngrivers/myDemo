@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Microsoft YaHei";
+}
+.main{
+    background: #b03c08;
+    width: 500px;
+    margin:0 auto;
+    border-radius: 10px;
+    box-shadow: 0 0 50px gray;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+input,button{
+    height: 60px;
+    border-radius: 5px;
+    font-size: 26px;
+    border-width: 0;
+}
+.txt1{
+    position: absolute;
+    left: 500px;
+    top: 73px;
+    font-size: 26px;
+    color: gray;
+}
+.txt2{
+    position: absolute;
+    left: 500px;
+    top: 151px;
+    font-size: 26px;
+    color: gray;
+}
+.txt3{
+    position: absolute;
+    left: 840px;
+    top: 76px;
+    font-size: 20px;
+    color: gray;
+}
+
+.txt4{
+    position: absolute;
+    left: 840px;
+    top: 154px;
+    font-size: 20px;
+    color: gray;
+}
+textarea{
+    font-size: 26px;
+    width: 380px;
+    height: 100px;
+    margin: 60px 50px;
+    border-radius: 5px;
+    resize: none;
+    padding: 10px;
+    border-width: 0;
+}
+input{
+    width: 240px;
+    margin: 10px 50px;
+    padding-left: 160px;
+}
+button{
+    width: 400px;
+    margin: 30px 50px;
+    background: #dbd265;
+    color:black;
+}
+#box{
+    width: 379px;
+    height: 474px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    position: absolute;
+    top: 59px;
+    left: 483px;
+    background: white;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 26px;
+    display: none;
+}
+#header{
+    border-bottom: 1px solid gray;
+}
+#num{
+    display: block;
+    width: 60px;
+    height: 400px;
+    margin:0 auto;
+    resize: none;
+}
