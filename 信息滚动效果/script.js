@@ -7,6 +7,7 @@ var con2=document.getElementById("con2");
 var move2=document.getElementById("move2");
 box.scrollTop=0;
 con2.innerHTML=con1.innerHTML;
+var scroll=null;
 //var scroll=setInterval("scrollUp()",50);
 function scrollUp(){
     if(box.scrollTop>=con1.scrollHeight){

@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner{
+    width: 470px;
+    height: 170px;
+    overflow: hidden;/*隐藏多余部分*/
+    position: relative;
+    margin: 100px auto;
+    cursor: pointer;
+}
+#bannerImg{
+    list-style: none;
+}
+#bannerImg li{
+    width: 470px;
+    height: 170px;
+}
+#bannerList{
+    position: absolute;
+    right: 5px;
+    bottom: 10px;
+    list-style: none;
+}
+#bannerList li{
+    width: 20px;
+    height: 20px;
+    float: left;
+    background-color: #ccc;
+    color: black;
+    border: 1px solid gray;
+    margin-left: 5px;
+    text-align: center;
+}
+.img1{
+    background: url("images/1.jpg");
+}
+.img2{
+    background: url("images/2.jpg");
+}
+.img3{
+    background: url("images/3.jpg");
+}
+.img4{
+    background: url("images/4.jpg");
+}
+.img5{
+    background: url("images/5.jpg");
+}
+#bannerList li.on{
+    background: #e97305;
+    color: #fff;
+}
