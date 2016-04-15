@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>60s倒计时发送验证码</title>
+    <script>
+        window.onload=function(){
+            var send=document.getElementById("send");
+            var times=60;
+            var timer=null;
+            send.onclick=function(){
+                clearInterval(timer);//防止重复点击
+                times=60;//时间重置
+                send.disabled="false";//按钮禁用
+                timer=setInterval(function(){
+                    if(times<=0){
+                        clearInterval(timer);
+                        send.disabled="";//按钮可再次点击
+                        send.value="发送验证码";
+                    }else{
+                        times--;
+                        send.value=times+"秒后重试";
+                    }
+                },1000)
+            }
+        }
+    </script>
+</head>
+<body>
+<input type="button" value="发送验证码" id="send"/>
+</body>
+</html>
