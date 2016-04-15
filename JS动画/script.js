@@ -90,11 +90,11 @@ function xMove(obj,json,fn){
                     obj.style[attr]=curr+speed+"px";
                 }
             }
-        }
-        if(flag){
-            clearInterval(obj.timer);
-            if(fn){
-                fn();
+            if(flag){
+                clearInterval(obj.timer);
+                if(fn){
+                    fn();
+                }
             }
         }
     },30);
