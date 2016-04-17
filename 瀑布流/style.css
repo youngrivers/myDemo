@@ -3,12 +3,18 @@
     padding: 0;
 }
 .main{
-    position: relative;
-    margin:0 auto;
+    column-width: 292px;
+    -webkit-column-width: 292px;
+    -moz-column-width: 292px;
+    -o-column-width: 292px;
+    -ms-column-width:292px;
+    -webkit-column-count: 6;
+    column-rule: 2px solid red;
+    padding: 15px 0 0 15px;
 }
 .box{
     float: left;
-    padding: 15px 0 0 15px;
+    padding: 10px 0 0 10px;
 }
 .pic{
     padding: 10px;
@@ -17,5 +23,7 @@
     box-shadow: 0 0 5px #ccc;
 }
 .pic img{
+    display: block;
     width: 250px;
+    height: auto;
 }
