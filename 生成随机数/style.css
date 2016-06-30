@@ -22,8 +22,12 @@ button{
     margin-bottom: 10px;
     padding: 5px;
     background: #ffffff;
+    border: 1px solid #cccccc;
 }
 button:hover{
     border-color: #09a3dc;
     color: #09a3dc;
+}
+button:checked{
+    border: 1px solid #cccccc;
 }
