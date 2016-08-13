@@ -31,3 +31,6 @@ button:hover{
 button:checked{
     border: 1px solid #cccccc;
 }
+#ball{
+	list-style:none;
+}
