@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>旋转木马--幻灯片</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="J-Poster poster-main" data-setting='{
+                                                "width":1000,
+                                                "height":270,
+                                                "posterWidth":640,
+                                                "posterHeight":270,
+                                                "scale":0.9,
+                                                "speed":500,
+                                                "autoPlay":"true",
+                                                "delay":2000,
+                                                "verticalAlign":"middle"
+                                                }'><!--data-setting为人工配置项，在JS里设置-->
+    <div class="poster-btn poster-prev-btn"></div>
+    <ul class="poster-list">
+        <li class="poster-item"><a href="#"><img src="img/1.jpg" alt=""></a></li>
+        <li class="poster-item"><a href="#"><img src="img/2.jpg" alt=""></a></li>
+        <li class="poster-item"><a href="#"><img src="img/3.jpg" alt=""></a></li>
+        <li class="poster-item"><a href="#"><img src="img/4.jpg" alt=""></a></li>
+        <li class="poster-item"><a href="#"><img src="img/5.jpg" alt=""></a></li>
+    </ul>
+    <div class="poster-btn poster-next-btn"></div>
+</div>
+<script src="js/jquery-1.12.0.min.js"></script>
+<script src="js/carousel.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
