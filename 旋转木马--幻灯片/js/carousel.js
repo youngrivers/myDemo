@@ -16,7 +16,7 @@
         if(this.posterItems.size()%2==0){
             this.posterItemMain.append(this.posterItems.eq(0).clone());
             this.posterItems = this.posterItemMain.children();
-        };
+        }
         this.posterFirstItem=this.posterItems.eq(0);
         this.posterLastItem=this.posterItems.last();
         this.rotateFlag=true;//设置旋转标志，当上一步执行完才能执行下一步
