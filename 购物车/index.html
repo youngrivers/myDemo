@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>购物车</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<table id="cartTable">
+    <thead>
+        <tr>
+            <td><input class="check check-all" type="checkbox"><span>全选</span></td>
+            <td><span>商品</span></td>
+            <td><span>单价</span></td>
+            <td><span>数量</span></td>
+            <td><span>小计</span></td>
+            <td><span>操作</span></td>
+        </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td class="checkBox"><input class="check" type="checkbox"></td>
+        <td class="goods"><img src="img/cpu.jpg" alt=""><span>cpu i5-6500</span></td>
+        <td class="price">1135.00</td>
+        <td class="count"><span class="reduce">&nbsp;</span><input type="text" value="1"><span class="add">+</span></td>
+        <td class="total">1135.00</td>
+        <td class="operation"><span class="delate">删除</span></td>
+    </tr>
+    <tr>
+        <td class="checkBox"><input class="check" type="checkbox"></td>
+        <td class="goods"><img src="img/gpu.jpg" alt=""><span>gpu GTX1060</span></td>
+        <td class="price">1450.00</td>
+        <td class="count"><span class="reduce">&nbsp;</span><input type="text" value="1"><span class="add">+</span></td>
+        <td class="total">1450.00</td>
+        <td class="operation"><span class="delate">删除</span></td>
+    </tr>
+    <tr>
+        <td class="checkBox"><input class="check" type="checkbox"></td>
+        <td class="goods"><img src="img/ssd.jpg" alt=""><span>ssd inter535</span></td>
+        <td class="price">300.00</td>
+        <td class="count"><span class="reduce">&nbsp;</span><input type="text" value="1"><span class="add">+</span></td>
+        <td class="total">300.00</td>
+        <td class="operation"><span class="delate">删除</span></td>
+    </tr>
+    <tr>
+        <td class="checkBox"><input class="check" type="checkbox"></td>
+        <td class="goods"><img src="img/bios.jpg" alt=""><span>bios b150M</span></td>
+        <td class="price">540.00</td>
+        <td class="count"><span class="reduce">&nbsp;</span><input type="text" value="1"><span class="add">+</span></td>
+        <td class="total">540.00</td>
+        <td class="operation"><span class="delate">删除</span></td>
+    </tr>
+    <tr>
+        <td class="checkBox"><input class="check" type="checkbox"></td>
+        <td class="goods"><img src="img/ddr.jpg" alt=""><span>DDR4 8G*2</span></td>
+        <td class="price">450.00</td>
+        <td class="count"><span class="reduce">&nbsp;</span><input type="text" value="1"><span class="add">+</span></td>
+        <td class="total">450.00</td>
+        <td class="operation"><span class="delate">删除</span></td>
+    </tr>
+    </tbody>
+</table>
+<div class="foot" id="foot">
+    <label><input class="check check-all" type="checkbox">全选</label>
+    <a id="deleteAll" href="#">删除</a>
+    <div class="buy">结算</div>
+    <div class="totalAll">合计:￥<span id="totalAll">0.00</span></div>
+    <div class="selected">已选商品
+        <span id="selectedAll">0</span>件
+        <span class="arrow-up">↑</span>
+        <span class="arrow-down hide">↓</span>
+    </div>
+    <div class="selected-view">
+        <div id="selected-view-list" class="selected-view-list"></div>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>

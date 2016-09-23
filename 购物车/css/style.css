@@ -1,0 +1,123 @@
+*,table,tr,td{
+    margin: 0;
+    padding: 0;
+}
+#cartTable{
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+table, tr, td{
+    border: 2px solid #e5eef8;
+    text-align: center;
+}
+thead tr{
+    border-top: 4px solid #c3d6ef;
+    background-color: #e1f2fe;
+    line-height: 20px;
+}
+thead span{
+    font-weight: bold;
+}
+tbody .total{
+    color: #aa3047;
+    font-weight: bold;
+}
+tbody tr{
+    background-color: #eef5fe;
+    height: 80px;
+}
+tbody .count span{
+    display: inline-block;
+    background-color: #ccc;
+    width: 10px;
+    height: 20px;
+    cursor: pointer;
+}
+tbody .count input{
+    width: 50px;
+    height: 20px;
+}
+tbody .operation span{
+    cursor: pointer;
+}
+img{
+    width: 120px;
+    height: 75px;
+}
+.foot{
+    position: relative;
+    border: 2px solid #e5eef8;
+    width: 80%;
+    height: 40px;
+    margin: 0 auto;
+    background-color: #f0f0f0;
+    line-height: 40px;
+}
+.foot label{
+    padding-right: 50px;
+}
+.foot a{
+    text-decoration: none;
+    color: black;
+}
+.foot .totalAll,.foot .selected{
+    padding-right: 10px;
+}
+.foot .totalAll,.foot .selected,.foot .buy{
+    float: right;
+}
+.foot .buy{
+    width: 100px;
+    background-color: #ccc;
+    text-align: center;
+    font-weight: bold;
+}
+.foot .totalAll span,.foot .selected span{
+    color: #aa3047;
+    font-weight: bold;
+}
+.foot .selected{
+    cursor: pointer;
+}
+.foot .selected-view{
+    display: none;
+    width: 80%;
+}
+.show{
+    display: block;
+}
+#selected-view-list{
+    width: 100%;
+    position: absolute;
+    bottom: 40px;
+    border: 1px solid #e5eef8;
+    background-color: #fff;
+}
+#selected-view-list div{
+    padding: 20px;
+    position: relative;
+    width: 120px;
+    height: 75px;
+    float: left;
+}
+#selected-view-list div span{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 60px;
+    height: 20px;
+    color: #ffffff;
+    font-size: 12px;
+    display: none;
+    cursor: pointer;
+    line-height: 18px;
+    text-align: center;
+    background: RGBA(0,0,0,.5);
+}
+#selected-view-list div:hover span{
+    display: block;
+}
+.hide{
+    display: none;
+}
