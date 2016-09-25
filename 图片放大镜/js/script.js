@@ -18,7 +18,8 @@ window.onload=function () {
     objMark.onmousemove = function (ev) {
         var _event = ev || window.event;  //兼容多个浏览器的event参数模式
         /*
-        *event.clientX  鼠标相当于浏览器可视区域X值
+        *event.clientX  鼠标相对于浏览器可视区域X值
+        *offsetX  当前对象鼠标相对于父元素X值
         *offsetLeft  对象左边界到父元素左边界的距离
         *offsetWidth  对象的宽度
         * */
