@@ -33,7 +33,7 @@ $('.color-btn').click(
 canvas.onmousedown=function (e) {
     e=e||window.event;
     e.preventDefault();//阻止event默认事件
-    beginStroke(e);
+    beginStroke({x:e.offsetX,y:e.offsetY});
 };
 canvas.onmouseup=function (e) {
     e=e||window.event;
@@ -50,7 +50,7 @@ canvas.onmousemove=function (e) {
     e.preventDefault();
     if(isMouseDown){
         //draw
-        moveStroke(e);
+        moveStroke({x:e.offsetX,y:e.offsetY});
     }
 };
 //移动设备端适配
@@ -125,9 +125,9 @@ function drawGrid() {
     context.restore();//闭包
 }
 //开始点
-function beginStroke(e) {
+function beginStroke(point) {
     isMouseDown=true;
-    lastLoc=canvasPoint(e.offsetX,e.offsetY);
+    lastLoc=canvasPoint(point.x,point.y);
     lastTime=new Date().getTime();
 }
 //结束点
@@ -147,7 +147,7 @@ function ctxDistance(l1, l2) {
 }
 //画笔函数
 function moveStroke(point) {
-    var ctxLoc=canvasPoint(point.offsetX,point.offsetY);
+    var ctxLoc=canvasPoint(point.x,point.y);
     var ctxTime=new Date().getTime();
     var t=ctxTime-lastTime,
         s=ctxDistance(ctxLoc,lastLoc);

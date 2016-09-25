@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="61d22fdb-8cb2-482e-b9d0-e1fc6cf46d30" name="默认的" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5-写一个字/handwriting.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5-写一个字/handwriting.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/HTML5-写一个字/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css3-手风琴效果/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/图片放大镜/js/script.js" afterPath="$PROJECT_DIR$/图片放大镜/js/script.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/HTML5-写一个字/handwriting.js" afterPath="$PROJECT_DIR$/HTML5-写一个字/handwriting.js" />
     </list>
     <ignored path="myDemo.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,8 +45,8 @@
       <file leaf-file-name="handwriting.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/HTML5-写一个字/handwriting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="129">
-              <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+            <state relative-caret-position="-1651">
+              <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
               <folding>
                 <element signature="e#0#47#0" expanded="false" />
               </folding>
@@ -398,7 +393,7 @@
       <workItem from="1474396709842" duration="5398000" />
       <workItem from="1474508458077" duration="31700000" />
       <workItem from="1474597970940" duration="10781000" />
-      <workItem from="1474746516706" duration="18884000" />
+      <workItem from="1474746516706" duration="19325000" />
     </task>
     <task id="LOCAL-00001" summary="组件开发">
       <created>1473550077969</created>
@@ -432,7 +427,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="100807000" />
+    <option name="totallyTimeSpent" value="101248000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -872,8 +867,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/HTML5-写一个字/handwriting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="55" column="9" selection-start-line="55" selection-start-column="9" selection-end-line="55" selection-end-column="9" />
+        <state relative-caret-position="-1651">
+          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
           <folding>
             <element signature="e#0#47#0" expanded="false" />
           </folding>
