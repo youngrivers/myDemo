@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>windmill旋转风车</title>
+    <style type="text/css">
+        #wrap{
+            border: 1px solid #ccc;
+            width: 1100px;
+            height: 600px;
+            margin: 0 auto;
+            margin-top: 40px;
+            position: relative;
+        }
+        #tree{
+            width: 12px;
+            height: 0;
+            border-width: 0 25px 380px 25px;
+            border-style: none solid solid solid;
+            border-color: transparent transparent #996699 transparent;
+            position: absolute;
+            bottom: 0;
+            left: 535px;
+        }
+        #windmill{
+            width: 50px;
+            height: 50px;
+            position: absolute;
+            left: 540px;
+            top:185px;
+            animation: roll 3s;
+            animation-iteration-count: infinite;/*动画执行次数：无限*/
+            animation-timing-function: linear;/*速度执行函数：相同*/
+        }
+        .axle{
+            width: 50px;
+            height: 50px;
+            background-color: rgb(81,195,50);
+            border-radius: 50%;
+            position: absolute;
+        }
+        .vane{
+            width: 12px;
+            height: 4px;
+            position: absolute;
+            left: 25px;
+            top: 25px;
+            border-width: 0 0 125px 280px;
+            border-style: none none solid solid;
+            border-color: transparent transparent transparent #ffff00;
+            transform-origin: 0 0;/*旋转中心坐标*/
+        }
+        .z2{
+            border-color: transparent transparent transparent #66cccc;
+            transform: rotate(90deg);
+        }
+        .z3{
+            border-color: transparent transparent transparent #cc99cc;
+            transform: rotate(180deg);
+        }
+        .z4{
+            border-color: transparent transparent transparent #99cc33;
+            transform: rotate(270deg);
+        }
+        @keyframes roll {
+            from{transform: rotate(0deg);}
+            to{transform: rotate(360deg);}
+        }
+    </style>
+</head>
+<body>
+    <div id="wrap">
+        <div id="tree"></div>
+        <div id="windmill">
+            <div class="vane z1"></div>
+            <div class="vane z2"></div>
+            <div class="vane z3"></div>
+            <div class="vane z4"></div>
+            <div class="axle"></div>
+        </div>
+    </div>
+</body>
+</html>

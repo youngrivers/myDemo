@@ -47,4 +47,5 @@
 	$("#box2").on('mouseover',function(){
        $(this).velocity('linxin.pulse');
 	});
+
 })(jQuery);
